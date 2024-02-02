@@ -1,0 +1,36 @@
+# Project files and folders
+/media/
+/static/
+*.mo
+*.egg-info
+
+# Project local settings and secrets
+.env
+
+# Python files
+.Python
+.python-version
+*.pyc
+__pycache__
+pip-selfcheck.json
+
+# Editors
+.vscode
+.idea/
+*.swp
+
+# OS and env files
+.DS_Store
+.template-version
+env
+
+# Testing
+\.pytest_cache/
+
+# logs
+error.log
+log/
+
+# Data dumps
+*.psql
+db.sqlite3
