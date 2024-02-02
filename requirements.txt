@@ -1,2 +1,4 @@
-Django>=4.2,<5.1
-wagtail>=5.2,<5.3
+Django>=4.0,<4.1
+wagtail>=3.0,<3.1
+pytest-django~=4.8.0
+pytest-playwright~=0.4.3

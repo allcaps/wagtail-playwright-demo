@@ -1,0 +1,8 @@
+[project]
+name = "dashboard" # required
+
+[tool.pytest.ini_options]
+testpaths = "home"
+addopts = [
+    "--ds=pytestplaywrightproject.settings.testing",
+]
